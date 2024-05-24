@@ -1,5 +1,13 @@
 # ColourAcademy - CSS Variable Generator Website 
 
+- CSS variable export (high priority)
+- save themes to a list of themes (medium priority)
+- preview components like UI Colours (nice-to-have)
+- Dark/light mode toggle in global context 
+- Deploy
+	- show the thing that Netlify needs to make React Router work 
+
+
 ## Routes 
 
 - "/" : homepage
@@ -14,14 +22,14 @@
 
 - Base Colour 
 	- hex colour of new theme 
-- Localstorage manager for list of CSS themes 
-	- Array of Theme Lists
-- Localstorage manager for current CSS theme
-	- One Theme List 
-- List of CSS themes 
-	- Array of Theme Lists 
-- Current CSS theme 
-	- One Theme List 
+- Current CSS theme
+	- one theme list 
+	- localstorage 
+- List of CSS themes
+	- array of theme list
+	- localstorage 
+
+
 
 
 ## Data 
@@ -46,3 +54,8 @@
 	]
 }
 ```
+
+
+# Note for Next Lesson
+
+- [x] Alex needs to find the autoimport package and share that 
